@@ -1,0 +1,8 @@
+.search__page {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  column-gap: 20px;
+  margin: 10px 70px;
+  color: #000;
+  line-height: 1.6;
+}

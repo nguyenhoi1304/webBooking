@@ -1,0 +1,78 @@
+.header,
+.title {
+  background-color: #003580;
+  color: white;
+  padding: 10px 40px;
+}
+.header__home {
+  padding-bottom: 100px;
+  background-color: #003580;
+  position: relative;
+}
+
+.title p {
+  margin: 20px 0;
+}
+.title h2 {
+  font-size: 1.8rem;
+}
+
+.title button {
+  padding: 10px 5px;
+  background-color: #427ed1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.btnSearch {
+  padding: 10px 5px;
+  background-color: #427ed1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btnSearch:hover,
+.btnSearch:hover {
+  background-color: #78a6e6;
+}
+
+.header__time {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  margin: 0 40px;
+  transform: translateY(34px);
+  border: 2px solid rgb(235, 235, 74);
+  border-radius: 5px;
+  color: #000;
+  background-color: white;
+}
+
+.header__time ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 13px 10px;
+  align-items: center;
+}
+
+.header__time ul li i {
+  margin-right: 5px;
+}
+
+.header__time ul li:nth-child(2) {
+  position: relative;
+}
+.calendar {
+  position: absolute;
+  background-color: rgb(8, 36, 49);
+}
+
+.header__time ul li input {
+  width: 180px;
+  text-align: center;
+}

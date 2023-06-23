@@ -1,0 +1,30 @@
+.subsCribe__home {
+  text-align: center;
+  background-color: blue;
+  margin-top: 220px;
+  padding: 130px 0;
+  color: white;
+}
+
+.subsCribe__home p {
+  margin: 24px 0;
+}
+
+.emailInput input {
+  padding: 18px 5px;
+  width: 300px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+}
+.emailInput button {
+  padding: 18px 5px;
+  border: none;
+  background-color: rgb(79, 149, 255);
+  border-radius: 4px;
+  color: white;
+}
+.emailInput button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

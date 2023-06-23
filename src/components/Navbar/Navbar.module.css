@@ -1,0 +1,48 @@
+.navbar {
+  position: relative;
+  background-color: #003580;
+  color: white;
+  padding: 20px 40px;
+  padding-bottom: 50px;
+}
+
+.nav_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btnRegister {
+  margin-right: 20px;
+}
+
+.btnRegister,
+.btnLogin {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.list {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.listItem {
+  margin: 30px 50px 0 0;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.nameItem {
+  margin-left: 10px;
+}
+
+.active {
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
