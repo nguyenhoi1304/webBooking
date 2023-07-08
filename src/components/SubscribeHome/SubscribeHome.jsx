@@ -3,6 +3,7 @@ import styles from "./SubscribeHome.module.css";
 
 const SubscribeHome = () => {
   const handleSubmit = (e) => {
+    // Ngăn chặn mở cửa sổ mới
     e.preventdefault();
   };
   return (

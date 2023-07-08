@@ -4,17 +4,21 @@ import Header from "../../components/Header/Header";
 import HotelHome from "../../components/HotelHome/HotelHome";
 import SubscribeHome from "../../components/SubscribeHome/SubscribeHome";
 import TypeHome from "../../components/TypeHome/TypeHome";
-// import styles from "./Home.module.css";
 
 const Home = () => {
   return (
     <div>
       <Header />
-      <CityHome />
-      <TypeHome />
-      <HotelHome />
+      {/* Sử dụng class container là 1 class global */}
+      <div className="container">
+        <CityHome />
+        <TypeHome />
+        <HotelHome />
+      </div>
       <SubscribeHome />
-      <Footer />
+      <div className="container">
+        <Footer />
+      </div>
     </div>
   );
 };

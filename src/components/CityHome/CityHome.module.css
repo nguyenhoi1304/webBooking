@@ -1,7 +1,7 @@
 .home__city_list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 55px 40px 0 40px;
+  margin: 55px 0;
   column-gap: 20px;
 }
 
